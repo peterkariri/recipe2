@@ -63,7 +63,19 @@ table{
      align-items: center;
 
 }
+@media (max-width:760px) {
+    body{
+        background-color: blue;
+    }
+    .container{
+        width: 80%;
+        background-color: white;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
 
+}
 
 
 
